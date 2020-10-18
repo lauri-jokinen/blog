@@ -51,7 +51,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Tiny blog
+            ⌂ Tiny blog
           </Link>
         </h3>
       )
