@@ -36,7 +36,7 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
@@ -53,7 +53,7 @@ class Template extends React.Component {
           >
             Tiny blog
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
