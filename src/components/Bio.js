@@ -29,8 +29,11 @@ class Bio extends React.Component {
         <p>
           <strong>Lauri Jokinen</strong> is a tech student from Finland.{' '}
           <a href="https://laurijokinen.com">
-            Link to my CV.
+            CV
+          , <a href="https://github.com/lapamatoz/">
+            GitHub
           </a>
+          .
         </p>
       </div>
     )
