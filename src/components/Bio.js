@@ -27,7 +27,11 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          <strong>Lauri Jokinen</strong> <i>is a tech student from Finland.{' '} </i>
+          <strong>Lauri Jokinen</strong> <i>
+            Welcome to my personal blog. I'm a geek, so there will be bunch of tech and math stuff here. I try to make even complex topics understandable and useful for everybody.
+            This blog is also for myself. It's good verbal excercise and forces me to form a better understanding of the topic.
+            You may contact me and leave comments <a href="https://laurijokinen.com"> here</a>.
+              </i>
 
           <a href="https://laurijokinen.com">
             CV
