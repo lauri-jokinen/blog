@@ -26,7 +26,7 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p style: "font-family: sans-serif; font-style: italic">
+        <p style="font-family: sans-serif; font-style:italic">
           <strong>Lauri Jokinen</strong> is a tech student from Finland.{' '}
           <a href="https://laurijokinen.com">
             CV
