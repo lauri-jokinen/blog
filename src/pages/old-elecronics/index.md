@@ -1,5 +1,7 @@
-Rant about using your existing electronics
-
+---
+title: Rant about using your existing electronics
+date: "2020-10-24T22:40:32.169Z"
+---
 Using pre-existing hardware is environmentally friendly, since manufacturing an electric device, like hard drive, consumes a lot of energy and recourses. So why not make use of the thousands of old laptops and hard drives already made. I know that new hard drives and computers are cheap. But that's the lazy way – buy second hand instead! Even ten years old computers are starting to be very usable even today, unlike well, ten years ago.
 
 You might argue that in capitalism spending boosts economy, but that's not actually correct. When you buy second hand, the excess money that you have will stay at your bank waiting to be loaned to fund company investments etc. The same goes with the money that the seller receives. So nobody loses, even economically. Yes, the money is distributed differently, but the economy does not suffer.
