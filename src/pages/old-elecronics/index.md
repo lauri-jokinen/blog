@@ -1,9 +1,13 @@
 Rant about using your existing electronics
 
-Using pre-existing hardware is environmentally friendly, since manufacturing an electric device, like hard drive, consumes a lot of energy and recourses. So why not make use of the thousands of old laptops and hard drives already made. I know that new hard drives and computers are cheap. But that's the lazy way – buy second hand instead! Even ten years old computers are starting to be very usable even today, unlike well, ten years ago.
+Using pre-existing hardware is environmentally friendly, since manufacturing an electric device, like hard drive, consumes a lot of energy and recourses. So why not make use of the thousands of old laptops and hard drives already made. I know that new hard drives and computers are cheap. But that's the lazy way â€“ buy second hand instead! Even ten years old computers are starting to be very usable even today, unlike well, ten years ago.
 
 You might argue that in capitalism spending boosts economy, but that's not actually correct. When you buy second hand, the excess money that you have will stay at your bank waiting to be loaned to fund company investments etc. The same goes with the money that the seller receives. So nobody loses, even economically. Yes, the money is distributed differently, but the economy does not suffer.
 
 To give some idea: a mobile phone's manufacturing impact is somewhat equal to 73 years of actually using it. The initial manufacturing cost is never payed back fully, but you can make it a smaller proportion of the whole consumption just by using it as long as you can. It's just simple energy efficiency calculation. This is why you should use your electronics as much and long as you can, and then recycle them as well as you can.
 
-Here's some <a href="https://www.google.com/search?q=what+to+do+with+an+old+phone"> things you can do with an old phone </a> and here's <a href="https://www.google.com/search?q=what+to+do+with+an+old+computer"> some uses for old computers </a>. Isn't Google amazing?
+Here's some
+[things you can do with an old phone](https://www.google.com/search?q=what+to+do+with+an+old+phone)
+and here's
+[some uses for old computers](https://www.google.com/search?q=what+to+do+with+an+old+computer).
+Isn't Google amazing?
