@@ -7,7 +7,7 @@ Using pre-existing hardware is environmentally friendly, since manufacturing an 
 You might argue that spending boosts economy, but that's not actually correct. When you buy second hand, the excess money that you have will stay at your bank waiting to be loaned to fund company investments etc. Also, if the product is not produced in your home land, the money you spend on a local second hand item won't leave your country. So buying second hand is extra good for the country's economy.
 
 To give some idea of the numbers: a mobile phone's manufacturing impact is somewhat equal to
-[73 years](https://www.theatlantic.com/technology/archive/2014/10/the-energy-in-things/381557/)
+<a href= "https://www.theatlantic.com/technology/archive/2014/10/the-energy-in-things/381557/" target="_blank">73 years</a>
 of actually using it. The initial manufacturing cost is never payed back fully, but you can make it a smaller proportion of the whole consumption just by using it as long as you can. It's just simple energy efficiency calculation. This is why you should use your electronics as much and long as you can, and then recycle them as well as you can.
 
 Here's some
