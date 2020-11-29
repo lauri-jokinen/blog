@@ -11,7 +11,7 @@ To give some idea of the numbers: a mobile phone's manufacturing impact is somew
 of actually using it. The initial manufacturing cost is never payed back fully, but you can make it a smaller proportion of the whole consumption just by using it as long as you can. It's just simple energy efficiency calculation. This is why you should use your electronics as much and long as you can, and then recycle them as well as you can.
 
 Here's some
-[things you can do with an old phone](https://www.google.com/search?q=what+to+do+with+an+old+phone)
+[things you can do with an old phone](https://www.google.com/search?q=what+to+do+with+an+old+phone){:target="_blank"}
 and here's
-[some uses for old computers](https://www.google.com/search?q=what+to+do+with+an+old+computer).
+[some uses for old computers](https://www.google.com/search?q=what+to+do+with+an+old+computer){:target="_blank"}.
 Isn't Google amazing?
