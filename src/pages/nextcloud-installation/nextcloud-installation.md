@@ -16,13 +16,11 @@ See my previous entry, "Rant about using your electronics".
 # Requirements
 Here's what you'll need:
 
-Computer that is 
-[able to run Ubuntu 18](google: requirements for ubuntu 18)
+* Computer that is able to run Ubuntu 18.04
 or newer (or some other operating system that supports snap-packages)
-As much disk space as you want. You can have [multiple disks](google RAID)
-too.
-Router with a port forwarding feature and a DHCP feature. Most of them do.
-Reliable (and snappy) internet connection.
+* As much disk space as you want. You can combine multiple disks using RAID.
+* Router with a port forwarding feature and a DHCP feature. Most of them do.
+* Reliable (and snappy) internet connection.
 
 # How a server works
 This graph is very simple, but gives you an idea of the whole system.
@@ -45,13 +43,12 @@ Nextcloud (website)
 Database on a hard drive
 }
 
-# Install Ubuntu
-Install Ubuntu on your computer.
-Install Ubuntu 18.04 or newer. With this option you can use your server as a regular computer too: maybe a livingroom computer or such. RAID and disk management is easier this way. We'll use 18.04 or newer because they support snap packages.
+# Install Ubuntu
+Install Ubuntu 18.04 or newer. With this operating system you can use your server as a regular computer too: maybe a livingroom computer or such. RAID and disk management is easy using the graphical interface. We'll use 18.04 or newer because they support snap packages.
 
-If you want to be a pro, you might want to install Ubuntu Server 18.04 (or newer) instead. It has no visual interface, just a command line. It might be more reliable, since it doesn't require as many drivers as the regular Ubuntu 18.04. You can also create the cloud on a virtual machine if you want.
+If you want to be a pro, you might want to install Ubuntu Server 18.04 (or newer) instead. It has no visual interface; just a command line. It might be more reliable, since it doesn't require as many drivers as the regular Ubuntu 18.04. You can also create the cloud on a virtual machine if you want. There are good instructions online for these variants.
 
-I recommend disabling all unnecessary connectivity, since it can affect drivers etc. and make the computer more unstable. It did with mine.
+I recommend disabling all unnecessary connectivity (bluetooth etc.), since it can affect drivers etc. and make the computer more unstable. It did with mine.
 
 # Check few addresses
 When you have your operating system set up, go to your internet settings and click on the wheel-icon. Take a note of your local IP address, it's something like, 192.168.1.52. Also note the MAC-address, something like 74:D4:35:84:34:13. We need these addresses soon.
@@ -63,9 +60,9 @@ Next we'll configure your router. We're going to do two things:
 
 You can do these steps on any device, that is connected to the router (by the router's wifi or by a cable).
 
-Go to 192.168.1.1 with your browser. This address works on most of routers. You should see some sort of login page. While logged in, you should find and activate the Port Forwarding feature, and add two entries there,
-• Port 80 with the local IP address
-• Port 443 with the local IP address
+Go to 192.168.1.1 with your browser. This address works on most of routers. You should see some sort of login page. When logged in, you should find and activate the Port Forwarding feature, and add two entries there,
+* Port 80 with the local IP address
+* Port 443 with the local IP address
 You might be able to set names to these entries, and they can be whatever, like 'cloud', or 'server'.
 
 Next, find where you can set a DHCP-server on the router's web page. Put there an entry with above MAC-address and local IP address.
