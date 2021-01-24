@@ -26,21 +26,37 @@ or newer (or some other operating system that supports snap-packages)
 This graph is very simple, but gives you an idea of the whole system.
 
 World
+
 | URL (e.g. https://some.cloud.com)
+
 Domain
+
 | IP (usually 8x.xxx.xx)
+
 Router
+
 | IP (usually somethin like 192.168.1.52)
+
 Host computer
+
 {
+
 Snap package
+
 {
+
 Apache (server program)
+
 |
+
 Nextcloud (website)
+
 }
+
 | SQL
+
 Database on a hard drive
+
 }
 
 ## Install Ubuntu
@@ -87,5 +103,5 @@ Let's go back to the server machine. Next we'll install Nextcloud snap-package. 
 Alfter installation you'll want to configure SSL-connection woth Let's Encrypt. It is built in to the snap, and requires just a few lines of code.
 
 Manual installation is a bit of a hassle, and I recommend trying the snap package if you're a starter. You might want to look at manual install if
- • If you want to have more web pages on same host computer. With snap you can basically just use Nextcloud. If you already have a Nextcloud snap, don't install Apache! Then that Apache will override the snap's Apache.
- • You want to configure Apache somehow, like redirect pages etc.
+* If you want to have more web pages on same host computer. With snap you can basically just use Nextcloud. If you already have a Nextcloud snap, don't install Apache! Then that Apache will override the snap's Apache.
+* You want to configure Apache somehow, like redirect pages etc.
