@@ -1,5 +1,5 @@
 ---
-modified: 2021-06-23T16:40:09+03:00
+modified: 2021-06-23T16:43:34+03:00
 ---
 
 ---
@@ -96,13 +96,13 @@ Go to
 [freedns.afraid.org](https://freedns.afraid.org),
 make yourself an account, and go to ’Registry’. Here you can, for example, choose ’crabdance.com’. Next you need to come up with a subdomain name, like ’wonderful’. Now your domain would be ’wonderful.crabdance.com’. You’ll want to choose a public domain rather than a private one, because the owner of the domain can delete your subdomain at any point. I’ve done this mistake in the past.
 
-Once you find a domain and subdomain that suits you, select type A and put in the destination your _public_ IP address. You can actually just connect any device to the router and Google ”what’s my ip”, and Google will show you the public IP.
+Once you find a domain and subdomain that suits you, select type A and put in the destination your _public_ IP address. You can actually just connect any device to the router and Google "what’s my ip", and Google will show you the public IP.
 
 When you’re done, you should be able to connect to your router via this domain, from anywhere in the world. But at the moment you should see a 404 Not found -page.
 
 ## Install Nextcloud
 Let’s go back to the server machine. Next we’ll install Nextcloud snap-package. There are other ways, but this is by far the easiest. Here’s a
-<a href= ”https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-18-04” target=”_blank”>link</a>.
+<a href= "https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-18-04" target="_blank">link</a>.
 
 Alfter installation you’ll want to configure SSL-connection woth Let’s Encrypt. It is built in to the snap, and requires just a few lines of code.
 
