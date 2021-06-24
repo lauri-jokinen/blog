@@ -1,11 +1,10 @@
 ---
-modified: 2021-06-23T16:39:14+03:00
+title: RAID-cluster for backups
+date: 2020-11-29T00:40:32+02:00
+modified: 2021-06-24T09:14:18+03:00
+tags: [storage]
 ---
 
----
-title: RAID-cluster for backups
-date: "2020-11-29T22:40:32.169Z"
----
 Some of my friends have two big hard drives in which they store everything they have: one for use and other for backup. Some use RAID to mirror them in real time and some do backups every now and then.
 
 At some point I was running out of space on my 1TB and 500GB hard drive combo, and I looked a while for new drives.Then I noticed that I had some old tiny disks lying around. I don't like to buy new electronics, and I decided to do something with them. I looked into how to make a RAID-cluster of all of my spare disks. I had some USB 2.0 HDD cases and a USB 2.0 hub lying around. I had to buy some super cheap second hand cases too. I decided that slow speed isn't an issue, so I went with USB 2.0.
