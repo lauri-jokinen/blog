@@ -2,10 +2,6 @@
 title: Create your own cloud service
 ---
 
----
-title: Create your own cloud service
-date: "2020-12-17T22:40:32.169Z"---
-
 About a year ago I was on the verge of paying for a cloud service, and I looked into other options. Finally I decided to make my own cloud right at my home. Almost everyone has an old computer somewhere in their closets. Combine that with a decent internet connection, a router and a bit of work, and you’ll have your own cloud service!
 
 I use Nextcloud which is an open source project with great functionality. In this [video] you can see what it can do. You might want to look into [Syncthing], [Filecoin] and [sia]. I also want to emphasize that this is only one way of doing a cloud - there are many ways to do each step. I’ve encountered many problems while hosting my cloud, and I hope that with this manual you’ll manage to avoid the same mistakes. If you have questions, ask me or consult your nearest geek.
