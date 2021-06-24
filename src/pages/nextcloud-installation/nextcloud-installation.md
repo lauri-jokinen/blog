@@ -1,7 +1,10 @@
 ---
-modified: 2021-06-23T16:43:34+03:00
 title: Create your own cloud service
 ---
+
+---
+title: Create your own cloud service
+date: "2020-12-17T22:40:32.169Z"---
 
 About a year ago I was on the verge of paying for a cloud service, and I looked into other options. Finally I decided to make my own cloud right at my home. Almost everyone has an old computer somewhere in their closets. Combine that with a decent internet connection, a router and a bit of work, and you’ll have your own cloud service!
 
