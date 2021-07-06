@@ -1,5 +1,5 @@
 ---
-title: Creating a smart home – in a tech student way
+title: Controlling your radiators – in a tech student way
 date: 2021-07-06T00:40:32+02:00
 modified: 2021-07-06T09:11:41+03:00
 tags: [smart-home]
