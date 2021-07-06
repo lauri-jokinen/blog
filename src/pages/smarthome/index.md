@@ -1,5 +1,5 @@
 ---
-title: Creating a smart home -- in a tech student way
+title: Creating a smart home – in a tech student way
 date: 2021-07-06T00:40:32+02:00
 modified: 2021-07-06T09:11:41+03:00
 tags: [smart-home]
@@ -13,7 +13,7 @@ I did some Googling, and found a good middle ground with possibility for some ha
 
 But the best feature of these thermostats is that they can also be controlled via Bluetooth. Bluetooth has a short range, so I'd need to be near them to control them with an Android app. However, there are computer scripts on Github for controlling exactly these devices. This means that I can have computer sitting at my home, and if I can control the computer via internet, then I can also control the thermostats via the computer's Bluetooth. Simply put, I can control the thermostats anywhere on the planet, rather than being inside my house.
 
-I also found cheap Bluetooth temperature sensors, Xiaomi Mi, which we can also read via a computer script.
+I also found cheap Bluetooth temperature sensors, Xiaomi Mi, which we can also read via a computer script. I plan to add more different kinds devices to this system in the future.
 
 # Benefits and limitations of this project
 
