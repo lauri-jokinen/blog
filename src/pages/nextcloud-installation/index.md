@@ -62,12 +62,14 @@ Database on a hard drive
 
 }
 
-## Install Ubuntu
+## Install Ubuntu
+
 Install Ubuntu 18.04 or newer. With this operating system you can use your server as a regular computer too: maybe a livingroom computer or such. RAID and disk management is easy using the graphical interface. We’ll use 18.04 or newer because they support snap packages.
 
 I recommend disabling all unnecessary connectivity (bluetooth etc.), since it can affect drivers etc. and make the computer more unstable. It did with mine.
 
-If you’re a pro, you might want to install Ubuntu Server 18.04 (or newer) instead. It has no visual interface; just a command line. It’s more reliable, since it doesn’t require as many drivers as the regular Ubuntu 18.04. You can also create the cloud on a virtual machine if you want. There are good instructions online for these variants.
+If you’re a pro, you might want to install Ubuntu Server 18.04 (or newer) instead. It has no visual interface; just a command line. It’s more reliable, since it doesn’t require as many drivers as the regular Ubuntu 18.04. You can also create the cloud on a virtual machine if you want. There are good instructions online for these variants.
+
 
 ## Check few addresses
 When you have your operating system set up, go to your internet settings and click on the wheel-icon. Take a note of your local IP address, it’s something like, 192.168.1.52. Also note the MAC-address, something like 74:D4:35:84:34:13. We need these addresses soon.
