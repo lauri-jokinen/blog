@@ -1,7 +1,7 @@
 ---
 title: Controlling your radiators – in a tech student way
 date: 2021-07-06T01:40:32+03:00
-modified: 2021-07-07T12:43:54+03:00
+modified: 2021-07-07T12:46:56+03:00
 tags: [smart-home]
 ---
 
@@ -9,7 +9,7 @@ tags: [smart-home]
 I started making my smart home by controlling the temperature. Heating homes makes a big proportion of the energy consumption. So, I wanted to control (turn the knobs) my radiators in a smart way, and found several solutions to this problem. In the market there are simple thermostats, which are not very smart, but actually do reduce energy consumption. There are also very smart options, such as Tado, but they are expensive. I recommend you getting any kind of radiator thermostat, because even the cheapest option saves a lot of energy. The way I chose was pretty difficult, and it might not be your way.
 
 ## My project
-I did some Googling, and found a good middle ground with possibility for some hacking as well. Eqiva eQ-3 radiator thermostats have built-in smart features, e.g., they can follow a weekly schedule. This feature in itself is enough for me, and because I found cheap second hand units from Poland (~25 € a piece incl. shipping), I bought them right away.
+I did some Googling, and found a good middle ground radiator thermostats with a possibility for some hacking as well. Eqiva eQ-3 radiator thermostats have built-in smart features, e.g., they can follow a weekly schedule. This feature in itself is enough for me, and because I found cheap second hand units from Poland (~25 € a piece incl. shipping), I bought them right away.
 
 But the best feature of these thermostats is that they can also be controlled via Bluetooth. Bluetooth has a short range, so I'd need to be near them to control them with an Android app. However, there are computer scripts on Github for controlling exactly these devices. This means that I can have computer sitting at my home, and if I can control the computer via internet, then I can also control the thermostats via the computer's Bluetooth. Simply put, I can control the thermostats anywhere on the planet, rather than being inside my house.
 
