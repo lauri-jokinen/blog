@@ -1,9 +1,9 @@
---
+---
 title: Controlling your radiators – in a tech student way
 date: 2021-07-06T01:40:32+03:00
 modified: 2021-07-27T17:30:20+03:00
 tags: [smart-home]
---
+---
 
 ## Why do I want to control my radiators?
 I started making my smart home by controlling the temperature. Heating homes makes a big proportion of the energy consumption. So, I wanted to control (turn the knobs) my radiators in a smart way, and found several solutions to this problem. In the market there are simple (and cheap!) thermostats, which don’t seem very smart, but actually do reduce energy consumption. On the other hand, the smartest options, such as Tado, are quite expensive. I recommend you getting any kind of radiator thermostat, because even the cheapest option saves energy and the investment will pay you back.
