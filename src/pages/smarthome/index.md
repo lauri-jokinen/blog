@@ -10,8 +10,6 @@ I started making my smart home by controlling the temperature. Heating homes mak
 
 The path I chose was pretty difficult, because it involves quite a bit of coding in Python. But if your interested, please read more!
 
-$$\int_0^1 x^2 \, dx$$
-
 ## My project
 I did some Googling, and found a good middle ground radiator thermostats with a possibility for some hacking as well. Eqiva eQ-3 radiator thermostats have built-in smart features, e.g., they can follow a weekly schedule. This feature in itself is enough for me, and because I found cheap second hand units from Poland (~25 € a piece incl. shipping), I bought them right away.
 
