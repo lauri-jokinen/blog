@@ -1,9 +1,9 @@
---
+---
 title: RAID-cluster for backups
 date: 2020-11-29T00:40:32+02:00
 modified: 2021-06-24T09:14:18+03:00
 tags: [storage]
---
+---
 
 Some of my friends have two big hard drives in which they store everything they have: one for use and other for backup. Some use RAID to mirror them in real time and some do backups every now and then.
 
