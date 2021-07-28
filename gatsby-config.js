@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Tiny Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    author: 'Lauri Jokinen',
+    description: 'A personal blog.',
+    siteUrl: 'https://blog.laurijokinen.com/',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
             },
           },
           'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-copy-linked-files'
           'gatsby-remark-smartypants',
         ],
       },
