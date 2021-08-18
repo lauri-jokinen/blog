@@ -1,7 +1,7 @@
 ---
 title: Create your own cloud service
 date: 2020-11-30T00:40:32+02:00
-modified: 2021-06-24T09:11:41+03:00
+modified: 2021-08-18T17:46:26+03:00
 tags: [cloud]
 ---
 
