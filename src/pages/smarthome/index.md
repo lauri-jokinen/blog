@@ -1,12 +1,12 @@
 ---
 title: Controlling your radiators – in a tech student way
 date: 2021-07-06T01:40:32+03:00
-modified: 2021-08-31T11:40:21+03:00
+modified: 2021-08-31T16:27:49+03:00
 tags: [smart-home]
 ---
 
 ## Why do I want to control my radiators?
-I started making my smart home by controlling the temperature. Heating homes makes a big proportion of the energy consumption. So, I wanted to control (turn the knobs) my radiators in a smart way, and found several solutions to this problem. The simplest and cheapest option is a passive thermostatic radiator valve (TVR) which is already found on most radiators (at least in Finland). A smart and expensive option, such as Tado, lets you e.g. schedule cooler temperatures for the night time which saves even more energy. I recommend getting any kind of radiator thermostat right now, because even a TRV saves energy and the investment will pay you back quickly. There is a smart thermostat for every budget.
+I started making my smart home by controlling the temperature. Heating homes makes a big proportion of the energy consumption. So, I wanted to control (turn the knobs) my radiators in a smart way, and found several solutions to this problem. The simplest and cheapest option is a passive thermostatic radiator valve (TVR) which is already found on most radiators (at least in Finland). Some studies show even 40% energy savings with TVRs compared to simple static valves. A smarter option lets you e.g. schedule cooler temperatures for the night time which saves even more energy. There's a smart thermostat for every budget.
 
 The path I chose was pretty difficult, because it involves quite a bit of coding in Python. But if your interested, please read more!
 
