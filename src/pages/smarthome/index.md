@@ -29,3 +29,13 @@ This system cost about four times less than the cost of the Tado system. But the
 * Good Python skills. I’ll give you pieces of the script, but I’ll give you the pleasure of putting it all together.
 
 The technical side is explained at my Github repository (link is at the end of this website).
+
+## Bluetooth tip
+
+One useful tip with Linux is to enable re-connect attempts (<a href= "https://www.makeuseof.com/fix-bluetooth-connectivity-issues-in-ubuntu/" target="_blank">source</a>). This is done in file,
+
+<tt>`sudo nano /etc/bluetooth/main.conf`</tt>
+
+In this file, you should uncomment the line with,
+
+<tt>`ReconnectAttempts=7`</tt>

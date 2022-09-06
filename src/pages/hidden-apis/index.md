@@ -1,0 +1,89 @@
+---
+title: Hidden APIs
+date: 2022-09-06T01:40:32+03:00
+modified: 2022-09-06T16:54:02+03:00
+tags: [coding]
+---
+
+Before, I was using Python and Selenium to scrape the web. Hidden APIs are much faster and robust compared to using Selenium, which is neatly explained in <a href= "https://youtu.be/DqtlR0y0suo" target="_blank">this Youtube video</a>. Inspired by this video, I quickly found two useful apis.
+
+## Helsingin Sanomat
+
+I want to scrape the headlines of today's paper daily. I used to do this with Selenium, but it required scrolling to the bottom of the page and find all relevant urls and titles within the HTML code. All of this is possible, but I quickly found a hidden API that gives you this information. For example, the titles of the paper 6.9.2022 can be fetched with,
+
+```
+https://www.hs.fi/api/editions/3601/toc
+```
+
+The result a neat and organized JSON, with section titles, news titles and urls,
+
+```
+{"sections":
+    [{"title":"Pääuutiset","items":
+        [{"title":"Hätälainojen ankarat...","url":"/paivanlehti/06092022/art-2000009048920.html","articleId":2000009048920},
+        ...],...
+    }]
+}
+```
+
+Only thing that you need is an ID for the paper (above the ID is 3601), which in turn, can be scraped with, e.g., the following Python script,
+
+```
+import requests
+from datetime import datetime
+
+# Get HTML of today's paper (requests.get() does a good job here)
+date_str = datetime.today().strftime('%d%m%Y')             # returns, e.g., '06092022'
+url = "https://www.hs.fi/paivanlehti/{}/".format(date_str) 
+page_html = str(requests.get(url).content)
+
+# Fetch a 'nodeID' from the HTML code
+page_id = page_html.split('nodeID":')[1].split(',')[0]     # returns, e.g., '3601'
+```
+
+## Nord Pool spot prices
+Finnish spot prices can be scraped with the following script. It's not the most beautiful script, but it works. Tell me if you have improvements to it!
+
+```
+import requests
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+
+url = "https://www.nordpoolgroup.com/api/marketdata/page/10?currency=,,,EUR"
+data = requests.get(url).json()['data']
+
+# Check if the date of the data is today
+today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+if not (datetime.strptime(data['DateUpdated'][0:10], '%Y-%m-%d') == today):
+  raise Exception("Forward data is not yet published; data's date is not today")
+
+data = data['Rows']
+
+# Read data and save it to array 'prices'
+prices = []
+for row in data:
+    for col in row['Columns']:
+        if col['Name'] == 'FI': # Fetch finnish prices
+          # tax 24 % and conversion EUR/MW to cent/kW
+          prices.append(float(col['Value'].replace(',','.'))*1.24*0.1)
+
+# Remove excess information
+prices = prices[0:24]
+
+# Format data to a dataframe, single precision is enough
+df = pd.DataFrame()
+df['electricity price'] = np.single(prices)
+
+# Create the time column, first generate 00:00, ..., 23:00
+dates = []
+for p in range(24):
+    dates.append(today + timedelta(hours = p+24))
+df['time'] = dates
+
+# Modify the timezone, s.t., the time difference between Nordpool and Finnish time is taken into account
+df['time'] = df['time'].dt.tz_localize('CET').dt.tz_convert('Europe/Helsinki').dt.tz_localize(None)
+
+# Print the result
+print(df)
+```
